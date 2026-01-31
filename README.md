@@ -1,4 +1,4 @@
-# hex-log
+# edge-case
 
 To install dependencies:
 

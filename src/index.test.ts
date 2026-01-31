@@ -11,6 +11,6 @@ describe("Basic Routes", () => {
 
     // レスポンスボディの確認
     const body = await res.text();
-    expect(body).toBe("Hello Hex Log!");
+    expect(body).toBe("Hello Edge Case!");
   });
 });
