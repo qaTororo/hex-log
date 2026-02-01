@@ -15,4 +15,10 @@ export default defineConfig({
     }),
     tailwindcss(),
   ],
+  build: {
+    manifest: true,
+    rollupOptions: {
+      input: "./src/style.css",
+    },
+  },
 });
